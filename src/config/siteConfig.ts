@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "想把可乐带到宇宙去",
 
 	// 站点 URL
-	site_url: "https://luan-fuzi.github.io",
+	site_url: "https://luanfuzi.top",
 
 	// 站点描述
 	description:
