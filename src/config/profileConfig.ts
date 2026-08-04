@@ -33,5 +33,11 @@ export const profileConfig: ProfileConfig = {
 			url: "/rss/",
 			showName: false,
 		},
+		{
+			name: "Email",
+			icon: "fa7-solid:envelope",
+			url: "mailto:w241liang@163.com",
+			showName: false,
+		},
 	],
 };
