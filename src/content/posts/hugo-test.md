@@ -2,7 +2,7 @@
 title: "Hugo测试"
 published: 2024-03-30T01:12:29+08:00
 description: "尝试使用hugo进行一个个人主页的维护。"
-category: 碎碎念
+category: legacy
 tags: ["深夜发癫"]
 ---
 

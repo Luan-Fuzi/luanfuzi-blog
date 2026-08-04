@@ -2,7 +2,7 @@
 title: "Zotero简易使用教程"
 published: 2024-04-03T18:18:52+08:00
 description: "Zotero是一款主要用于阅读、管理文献的软件，相比于一般的PDF阅读器，拥有更加优秀、定制化的论文辅助功能。"
-category: 杂项技术
+category: legacy
 tags: ["Zotero", "论文"]
 ---
 

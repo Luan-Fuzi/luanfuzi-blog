@@ -2,7 +2,7 @@
 title: "Latex学习记录"
 published: 2024-03-31T20:49:17+08:00
 description: "记录一下Latex学习过程，从安装到入土。"
-category: 杂项技术
+category: legacy
 tags: ["Latex", "论文"]
 ---
 

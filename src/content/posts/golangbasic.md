@@ -2,6 +2,8 @@
 title: "Golang学习笔记"
 published: 2024-04-06T22:36:45+08:00
 description: "Golang基础学习笔记"
+category: legacy
+tags: ["Golang"]
 ---
 
 Golang基础学习笔记

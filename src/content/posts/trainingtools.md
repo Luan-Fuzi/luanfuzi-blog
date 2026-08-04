@@ -2,7 +2,7 @@
 title: "深度学习小工具"
 published: 2024-05-08T23:39:24+08:00
 description: "整理一些深度学习过程中用到的小工具，提升1%的工作效率并提高99%的工作满意度。"
-category: 深度学习
+category: legacy
 tags: ["工具"]
 ---
 
