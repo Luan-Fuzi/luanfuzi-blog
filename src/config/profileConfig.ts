@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Luan_Fuzi",
 
 	// 个人签名
-	bio: "想把可乐带到宇宙去",
+	bio: "Per Aspera Ad Astra.",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

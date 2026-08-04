@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
 	title: "Luan_Fuzi的奇妙冒险",
 
 	// 站点副标题
-	subtitle: "想把可乐带到宇宙去",
+	subtitle: "Per Aspera Ad Astra.",
 
 	// 站点 URL
 	site_url: "https://luanfuzi.top",
