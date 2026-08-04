@@ -7,8 +7,8 @@ export const spineModelConfig: SpineModelConfig = {
 
 	// Spine模型配置
 	model: {
-		// Spine模型文件路径
-		path: "/pio/models/spine/firefly/1310.json",
+		// Spine模型文件路径（放入 public/pio/models/ 目录）
+		path: "",
 		// 模型缩放比例
 		scale: 1.0,
 		// X轴偏移
@@ -88,26 +88,19 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 	enable: false,
 	// 模型配置，支持单个模型或数组（多模型切换）
 	model: [
-		{
-			// Live2D模型本地文件路径
-			path: "/pio/models/live2d/snow_miku/model.json",
-			// 动作声音音量 范围0~1，默认 0（静音）
-			volume: 0,
-			// 模型缩放比例
-			scale: 1,
-			// X轴偏移，范围 -2~2，正值向右
-			x: 0,
-			// Y轴偏移，范围 -2~2，正值向上
-			y: 0,
-		},
-		{
-			// 外部直连模型
-			path: "https://model.hacxy.cn/cat-black/model.json",
-			volume: 0,
-			scale: 1,
-			x: 0,
-			y: 0,
-		},
+		// 示例：
+		// {
+		// 	// Live2D模型本地文件路径（放入 public/pio/models/ 目录）
+		// 	path: "/pio/models/live2d/snow_miku/model.json",
+		// 	// 动作声音音量 范围0~1，默认 0（静音）
+		// 	volume: 0,
+		// 	// 模型缩放比例
+		// 	scale: 1,
+		// 	// X轴偏移，范围 -2~2，正值向右
+		// 	x: 0,
+		// 	// Y轴偏移，范围 -2~2，正值向上
+		// 	y: 0,
+		// },
 	],
 	// 显示位置：bottom-left 或 bottom-right
 	position: "bottom-left" as const,
