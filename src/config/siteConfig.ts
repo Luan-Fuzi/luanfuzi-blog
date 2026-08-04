@@ -200,7 +200,7 @@ export const siteConfig: SiteConfig = {
 		// Bilibili 配置
 		bilibili: {
 			// 你的 Bilibili 用户 UID
-			uid: "",
+			uid: "1801085997",
 		},
 		// TMDB 配置（可选，需要翻墙）
 		// tmdb: {
