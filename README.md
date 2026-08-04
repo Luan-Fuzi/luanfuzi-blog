@@ -41,29 +41,31 @@ pnpm new-dynamic        # 新建动态（微博客）
 
 ## 为什么选择 Cloudflare
 
-- **免费额度够用**：Pages 免费套餐对个人静态博客完全足够
-- **Git 自动部署**：连接 GitHub 仓库后，push 自动触发构建部署，无需手动操作
+- **免费额度够用**：Workers 免费套餐对个人静态博客完全足够
+- **Git 自动部署**：Workers Builds 连接 GitHub 仓库后，push 自动触发构建部署，无需手动操作
 - **全球 CDN**：静态资源分发到 Cloudflare 全球边缘节点
 - **免费 HTTPS + 自定义域名**：自动签发证书，无需额外配置
-- **DNS 一体化**：域名 DNS 也托管在 Cloudflare，和 Pages 同一处管理
+- **DNS 一体化**：域名 DNS 也托管在 Cloudflare，和 Workers 同一处管理
 
 ## 发布流程
 
 ```
 git push（main 分支）
   → GitHub 向 Cloudflare 发送 webhook
-  → Cloudflare Pages 拉取代码，执行构建命令 pnpm build（输出目录 dist）
-  → 部署到全球边缘节点
+  → Workers Builds 拉取代码，执行构建命令 pnpm build（产出 dist/）
+  → 执行部署命令 npx wrangler deploy，按 wrangler.jsonc 部署静态资源
   → https://luanfuzi.top 生效（约 1-2 分钟）
 ```
 
-Cloudflare Pages 项目配置：
+Workers Builds 项目配置（Cloudflare Dashboard → Workers & Pages → luanfuzi-blog）：
 
 | 配置项 | 值 |
 |--------|-----|
 | 生产分支 | `main` |
 | 构建命令 | `pnpm build` |
-| 输出目录 | `dist` |
+| 部署命令 | `npx wrangler deploy`（默认） |
+
+部署配置在仓库根目录的 `wrangler.jsonc`（Worker 名称 `luanfuzi-blog`、静态资源目录 `./dist`），删掉它会导致构建失败。
 
 ## 域名
 
