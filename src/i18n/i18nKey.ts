@@ -443,6 +443,7 @@ enum I18nKey {
 	siteInfoBuildTime = "siteInfoBuildTime",
 	siteInfoBuildPlatform = "siteInfoBuildPlatform",
 	siteInfoBlogVersion = "siteInfoBlogVersion",
+	siteInfoTheme = "siteInfoTheme",
 	siteInfoAstroVersion = "siteInfoAstroVersion",
 	siteInfoNodeVersion = "siteInfoNodeVersion",
 	siteInfoPnpmVersion = "siteInfoPnpmVersion",

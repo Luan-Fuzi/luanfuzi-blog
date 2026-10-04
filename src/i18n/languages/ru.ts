@@ -461,6 +461,7 @@ export const ru: Translation = {
 	[Key.siteInfoBuildTime]: "Время сборки",
 	[Key.siteInfoBuildPlatform]: "Платформа сборки",
 	[Key.siteInfoBlogVersion]: "Версия блога",
+	[Key.siteInfoTheme]: "Версия темы",
 	[Key.siteInfoAstroVersion]: "Astro",
 	[Key.siteInfoNodeVersion]: "Node",
 	[Key.siteInfoPnpmVersion]: "pnpm",
