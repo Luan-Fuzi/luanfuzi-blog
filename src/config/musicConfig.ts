@@ -9,7 +9,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInSidebar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -46,6 +46,12 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 2. 或者直接填入歌词字符串内容
 	// lrc: "[00:00.00]歌词内容...",
 	local: {
-		playlist: [],
+		playlist: [
+			{
+				name: "Hortus Regis Alti",
+				artist: "ACE COMBAT 8: Wings of Theve OST",
+				url: "/assets/music/Hortus-Regis-Alti.mp3",
+			},
+		],
 	},
 };
